@@ -13,7 +13,7 @@ struct Tabs: View {
  
     var body: some View {
         TabView(selection: $selection){
-            Explore()
+            Feed()
                 .tabItem {
                     VStack {
                         Image("first")

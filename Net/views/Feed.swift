@@ -10,7 +10,8 @@ import SwiftUI
 
 struct Feed: View {
     
-    var grayColor: Color = Color(red: 230/255, green: 230/255, blue: 230/255)
+    var secBkg: Color = Color("secBkg")
+    var mainBkg: Color = Color("mainBkg")
     
     var body: some View {
         
@@ -22,24 +23,25 @@ struct Feed: View {
             TopBar()
             
             VStack{
-                Post()
-                Post()
-                Post()
-                Post()
-                Post()
-                Post()
-                Post()
-            }.background(grayColor)
+                PostView()
+                PostView()
+                PostView()
+                PostView()
+                PostView()
+                PostView()
+                PostView()
+            }.background(secBkg)
         }
         .offset(y: 0.1)
-        .background(Color.white)
+        .background(mainBkg)
             
     }
 }
 
 
-struct Post: View{
+struct PostView: View{
     
+    var mainBkg: Color = Color("mainBkg")
     
     var body: some View {
         VStack{
@@ -77,12 +79,15 @@ struct Post: View{
             .padding([.leading, .bottom])
             
         }
-        .background(Color.white)
+        .background(mainBkg)
     }
     
 }
 
 struct TopBar: View{
+    
+    @State var eventFormPresented: Bool = true
+    var mainBkg: Color = Color("mainBkg")
  
     var body: some View{
     
@@ -96,21 +101,26 @@ struct TopBar: View{
                 Spacer()
                 
                 Button(action: {
-                    print("hey")
+                    self.eventFormPresented.toggle()
                 }){
                     Image(systemName: "plus")
                         .resizable()
-                        .padding(3)
-                        .frame(width: 24, height: 24)
+                        .padding(4)
+                        .frame(width: 28, height: 28)
                         .background(Color.blue)
                         .clipShape(Circle())
                         .foregroundColor(.white)
                 }
+                .sheet(isPresented: $eventFormPresented, content: {
+                    EventForm(eventFormPresented: self.$eventFormPresented)
+                })
+                
+                
             }.padding([.top, .horizontal])
             
             Divider().padding(.horizontal)
     
-        }.background(Color.white)
+        }.background(mainBkg)
     }
     
 }

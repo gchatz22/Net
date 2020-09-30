@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		18C61C13E30C4E4D17066D89 /* Pods_Net_NetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3874F4A519477691CC68A3 /* Pods_Net_NetUITests.framework */; };
+		955A998E24F09E210068DE43 /* EventForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A998D24F09E210068DE43 /* EventForm.swift */; };
+		955A999224F10BCD0068DE43 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A999124F10BCD0068DE43 /* Location.swift */; };
+		955A999A24FA8D980068DE43 /* LocPickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A999924FA8D980068DE43 /* LocPickerCoordinator.swift */; };
+		955A999C24FA90E90068DE43 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A999B24FA90E90068DE43 /* LocationManager.swift */; };
+		955B4562250523D100834347 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955B4561250523D100834347 /* Landmark.swift */; };
+		955B45642505246C00834347 /* LandmarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955B45632505246C00834347 /* LandmarkAnnotation.swift */; };
+		9563D3952503DB78004FDCD5 /* LocationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563D3942503DB78004FDCD5 /* LocationPickerView.swift */; };
+		9563D39B2504EF26004FDCD5 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563D39A2504EF26004FDCD5 /* SearchBar.swift */; };
+		957163A52502EF9200D73876 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957163A42502EF9200D73876 /* MultilineTextField.swift */; };
 		95A09BE824E1BFA7000027B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A09BE724E1BFA7000027B6 /* AppDelegate.swift */; };
 		95A09BEA24E1BFA7000027B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A09BE924E1BFA7000027B6 /* SceneDelegate.swift */; };
 		95A09BEE24E1BFAB000027B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A09BED24E1BFAB000027B6 /* Assets.xcassets */; };
@@ -21,7 +30,8 @@
 		95E299AA24E7ED7A00437383 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E299A624E7ED7A00437383 /* Tabs.swift */; };
 		95E299AB24E7ED7A00437383 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E299A724E7ED7A00437383 /* MapView.swift */; };
 		95E299AF24E7EDAC00437383 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E299AE24E7EDAC00437383 /* Backend.swift */; };
-		95E299B524E950EB00437383 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E299B424E950EB00437383 /* File.swift */; };
+		95E299B524E950EB00437383 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E299B424E950EB00437383 /* User.swift */; };
+		95E299B724E96ED400437383 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E299B624E96ED400437383 /* Event.swift */; };
 		D92A22EFE952BF8DA0BEAE5D /* Pods_NetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA2C234AC9D429E7416E7C9 /* Pods_NetTests.framework */; };
 		DCE3C8822341136704C514EE /* Pods_Net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE141DFE48459ADB2015846B /* Pods_Net.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +59,15 @@
 		30A7324079593B2FE79765C8 /* Pods-Net-NetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net-NetUITests.debug.xcconfig"; path = "Target Support Files/Pods-Net-NetUITests/Pods-Net-NetUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		431EFFC2CA48AE24EB76FE0A /* Pods-NetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetTests.debug.xcconfig"; path = "Target Support Files/Pods-NetTests/Pods-NetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		930155FFF11C2ED5973DD4B6 /* Pods-NetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetTests.release.xcconfig"; path = "Target Support Files/Pods-NetTests/Pods-NetTests.release.xcconfig"; sourceTree = "<group>"; };
+		955A998D24F09E210068DE43 /* EventForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventForm.swift; sourceTree = "<group>"; };
+		955A999124F10BCD0068DE43 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		955A999924FA8D980068DE43 /* LocPickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocPickerCoordinator.swift; sourceTree = "<group>"; };
+		955A999B24FA90E90068DE43 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		955B4561250523D100834347 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		955B45632505246C00834347 /* LandmarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAnnotation.swift; sourceTree = "<group>"; };
+		9563D3942503DB78004FDCD5 /* LocationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerView.swift; sourceTree = "<group>"; };
+		9563D39A2504EF26004FDCD5 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		957163A42502EF9200D73876 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		95A09BE424E1BFA7000027B6 /* Net.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Net.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A09BE724E1BFA7000027B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95A09BE924E1BFA7000027B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +87,8 @@
 		95E299A624E7ED7A00437383 /* Tabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		95E299A724E7ED7A00437383 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		95E299AE24E7EDAC00437383 /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
-		95E299B424E950EB00437383 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		95E299B424E950EB00437383 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		95E299B624E96ED400437383 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		9EA2C234AC9D429E7416E7C9 /* Pods_NetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC8B8486A7344627E0AEF53 /* Pods-Net.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net.debug.xcconfig"; path = "Target Support Files/Pods-Net/Pods-Net.debug.xcconfig"; sourceTree = "<group>"; };
 		DD3874F4A519477691CC68A3 /* Pods_Net_NetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Net_NetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +144,14 @@
 				930155FFF11C2ED5973DD4B6 /* Pods-NetTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		957163A62503DAB700D73876 /* MapCoordinators */ = {
+			isa = PBXGroup;
+			children = (
+				955A999924FA8D980068DE43 /* LocPickerCoordinator.swift */,
+			);
+			path = MapCoordinators;
 			sourceTree = "<group>";
 		};
 		95A09BDB24E1BFA7000027B6 = {
@@ -195,7 +223,11 @@
 			children = (
 				95E299A424E7ED7A00437383 /* Feed.swift */,
 				95E299A524E7ED7A00437383 /* Explore.swift */,
+				9563D39A2504EF26004FDCD5 /* SearchBar.swift */,
+				9563D3942503DB78004FDCD5 /* LocationPickerView.swift */,
 				95E299A724E7ED7A00437383 /* MapView.swift */,
+				957163A42502EF9200D73876 /* MultilineTextField.swift */,
+				955A998D24F09E210068DE43 /* EventForm.swift */,
 				95E299A624E7ED7A00437383 /* Tabs.swift */,
 			);
 			path = views;
@@ -204,8 +236,14 @@
 		95E299AD24E7EDA000437383 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				957163A62503DAB700D73876 /* MapCoordinators */,
 				95E299AE24E7EDAC00437383 /* Backend.swift */,
-				95E299B424E950EB00437383 /* File.swift */,
+				95E299B424E950EB00437383 /* User.swift */,
+				955B4561250523D100834347 /* Landmark.swift */,
+				955B45632505246C00834347 /* LandmarkAnnotation.swift */,
+				955A999B24FA90E90068DE43 /* LocationManager.swift */,
+				95E299B624E96ED400437383 /* Event.swift */,
+				955A999124F10BCD0068DE43 /* Location.swift */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -451,11 +489,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A09BE824E1BFA7000027B6 /* AppDelegate.swift in Sources */,
+				957163A52502EF9200D73876 /* MultilineTextField.swift in Sources */,
+				955A999224F10BCD0068DE43 /* Location.swift in Sources */,
+				955A999A24FA8D980068DE43 /* LocPickerCoordinator.swift in Sources */,
+				9563D3952503DB78004FDCD5 /* LocationPickerView.swift in Sources */,
+				9563D39B2504EF26004FDCD5 /* SearchBar.swift in Sources */,
 				95E299AB24E7ED7A00437383 /* MapView.swift in Sources */,
 				95E299A824E7ED7A00437383 /* Feed.swift in Sources */,
 				95A09BEA24E1BFA7000027B6 /* SceneDelegate.swift in Sources */,
 				95E299AA24E7ED7A00437383 /* Tabs.swift in Sources */,
-				95E299B524E950EB00437383 /* File.swift in Sources */,
+				95E299B524E950EB00437383 /* User.swift in Sources */,
+				955A998E24F09E210068DE43 /* EventForm.swift in Sources */,
+				955A999C24FA90E90068DE43 /* LocationManager.swift in Sources */,
+				95E299B724E96ED400437383 /* Event.swift in Sources */,
+				955B45642505246C00834347 /* LandmarkAnnotation.swift in Sources */,
+				955B4562250523D100834347 /* Landmark.swift in Sources */,
 				95E299AF24E7EDAC00437383 /* Backend.swift in Sources */,
 				95E299A924E7ED7A00437383 /* Explore.swift in Sources */,
 			);

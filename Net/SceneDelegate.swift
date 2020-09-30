@@ -20,6 +20,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
+        
+        
+        
+//        TESTING USER SET AND GET
+        
+//        UserDefaults.standard.removeObject(forKey: "user")
+//        Setting and storing User
+//        let data = ["username": "gchatz",
+//                    "email": "gchatz@mit.edu",
+//                    "name": "Charis Chatziveroglou",
+//                    "location": Location(latitude: 10, longitude: 10)
+//            ] as [String : Any]
+//        Backend.createAndStroreUser(params: data)
+        
+//        Getting User
+//        print(Backend.user)
+        
+        
+        
         let contentView = Tabs()
 
         // Use a UIHostingController as window root view controller.
